@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+
+.TopBanner {
+	vertical-align: bottom;
+	text-align: center;
+	width: 100%;
+	background-image: url(../images/topbannerback.png);
+	height: 128px;
+}
+.packageImage {
+	background-image: url(../images/mlwsBasic.jpg);
+	background-repeat: no-repeat;
+}
+.packFecText {
+	color: rgba(0,0,0,1.00);
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: normal;
+	text-shadow: 0px 0px 2px rgba(255,255,255,1.00);
+	margin-left: 15px;
+}
+
+.packageImage2 {
+	background-image: url(../images/mlwmedium.jpg);
+	background-repeat: no-repeat;
+}
+.packageImage3 {
+	background-image: url(../images/mlwsExtended.jpg);
+	background-repeat: no-repeat;
+}
+.startLab {
+	color: rgba(255,255,255,1.00);
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: bolder;
+	font-size: large;
+	text-decoration: none;
+	background-color: rgba(0,96,8,1.00);
+	border-radius: 20px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	border: 5px solid rgba(110,255,113,1.00);
+	
+}
+.startLab:hover{
+	background-color: rgba(255,255,255,1.00);
+	color: rgba(0,0,0,1.00);
+}
+
+
+.TopBannerHeading {
+	color: #FFF;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 40px;
+	font-weight: bolder;
+	font-variant: small-caps;
+	vertical-align: bottom;
+}
+.middleBanner {
+	background-color: #FFFFFF;
+	vertical-align: top;
+}
+.MiddleLeft {
+	vertical-align: top;
+}
+.MiddleRight {
+	text-align: right;
+	vertical-align: top;
+}
+.MiddleLeftHeading {
+	font-family: "MS Serif", "New York", serif;
+	color: #006;
+	padding: 10px;
+}
+.LabBanner {
+	height: 450px;
+	background-color: #D0D1F0;
+	width: 50%;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+.PatientBanner {
+	height: 450px;
+	width: 99.3%;
+	background-color: #D0D1F0;
+	background-image: url(../images/patientPic1.jpeg);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+.LabBanner:hover{
+	background-image:url(../images/labPic2.jpg)
+}
+.PatientBanner:hover{
+	background-image:url(../images/labPic2.jpg)
+}
+
+.menuBtn {
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	background-color: #006;
+	color: #FFF;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	vertical-align: middle;
+	border: 2px solid #FFF;
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+.menuBtn:hover{
+	background-color:#BDCDF9;
+	color:#006;
+}
+.menu_link:link {
+	text-decoration: none;
+	color: #FFF;
+}
+.menu_link:visited {
+    color: #FFF;
+}
+.menuBtn:Active{
+	background-color:#999;
+}
+.menu_link{
+	display: block;
+}
+
+.PageHeading {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #06C;
+}
+.paraText {
+        font-size:16px; 
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.head2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #006;
+	text-transform: uppercase;
+}
+.head3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #006;
+	text-transform: uppercase;
+}
+#features {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #000;
+	padding-left: 10px;
+}
+.lastSpace {
+	padding-bottom: 15px;
+}
+.PriceTag {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	background-color: rgba(5,120,0,1.00);
+	border: 5px solid rgba(135,255,126,1.00);
+	border-radius: 40px;
+}
+.PageHeading2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	color: #006;
+}
+.SlideImg {
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.tableTH {
+	font-weight: bold;
+	color: #FFF;
+	background-color: #06C;
+	font-size: 18px;
+}
+.tablescope {
+	height: 350px;
+	overflow: scroll;
+}
+.searchOptionBar {
+	text-align: right;
+}
+.testDetailScope {
+	height: 300px;
+	overflow: scroll;
+	width: 100%;
+}
+.tablescope2 {
+	height: 400px;
+	width:800px;
+	overflow: scroll;
+}

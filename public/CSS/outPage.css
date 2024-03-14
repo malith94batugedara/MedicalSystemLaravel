@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+.outPageHead {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: lighter;
+	color: #FFF;
+	background-color: #006;
+	font-size: 33px;
+	height: 40px;
+	padding-top: 11px;
+}
+.UMemLoginBack {
+	border: 8px solid #006;
+}
+.PMemLoginBack{
+	border: 8px solid #006;
+	}
+.userLogindiv {
+	width: 400px;
+	position: absolute;
+	left: 142px;
+	top: 385px;
+	background: rgba(0, 0, 0, .7);
+	padding: 7px;
+	opacity: 0;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+	
+	
+}
+.PatientLogindiv {
+	width: 400px;
+	position: absolute;
+	left: 812px;
+	top: 372px;
+	background: rgba(0, 0, 0, .7);
+	padding: 7px;
+	opacity: 0;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.tableHead1 {
+	color: #FFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bolder;
+}
+.fieldText {
+	color: #FFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+}
+.ErrorMessage {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: #F00;
+}
+.LoginBtn {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	background-color: #006;
+	width: 90%;
+	color: #FFF;
+}
+
+.userLogindivIco {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 557px;
+	top: 431px;
+}
+.PatientLogindivIco {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 1225px;
+	top: 430px;
+}
+.loginBtnIcon {
+	cursor: pointer;
+}
+.userLogindiv:active {
+	-webkit-opacity: 1;
+	opacity: 1;
+}
+.PatientLogindiv:active {
+	-webkit-opacity: 1;
+	opacity: 1;
+}
+.ULoginBackHead {
+	color: #FFFFFF;
+	font-weight: lighter;
+	font-size: 30px;
+	text-shadow: 0px 0px;
+	position: absolute;
+	top: 88px;
+	left: 235px;
+	width: 430px;
+	padding: 5px;
+	background-color: rgba(0,0,0,0.5);
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	
+}
+
+.PLoginBackHead {
+	color: #FFFFFF;
+	font-weight: lighter;
+	font-size: 30px;
+	text-shadow: 0px 0px;
+	position: absolute;
+	width: 225px;
+	padding: 5px;
+	background-color: rgba(0,0,0,0.5);
+	left: 693px;
+	top: 88px;
+	text-align: right;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	
+}
+.recoverPass{
+	display: block;
+	color: rgba(255,255,255,1.00);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	height: 25px;
+	padding-top: 5px;
+	width: 200px;
+	background-image: -webkit-linear-gradient(90deg,rgba(255,255,255,1.00) 0%,rgba(0,0,102,1.00) 100%);
+	background-image: -moz-linear-gradient(90deg,rgba(255,255,255,1.00) 0%,rgba(0,0,102,1.00) 100%);
+	background-image: -o-linear-gradient(90deg,rgba(255,255,255,1.00) 0%,rgba(0,0,102,1.00) 100%);
+	background-image: linear-gradient(0deg,rgba(255,255,255,1.00) 0%,rgba(0,0,102,1.00) 100%);
+	padding-left: 10px;
+}
+.recoverPass:hover{
+	background-color: rgba(81,81,167,1.00);
+}

@@ -1,0 +1,122 @@
+@charset "utf-8";
+#panelitem {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.1s linear 0s;
+}
+#panelitem2 {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.1s linear 0s;
+}
+#panelitem3 {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.1s linear 0s;
+}
+#panelitem4 {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.1s linear 0s;
+}
+
+#oppanel_button {
+    width: 240px;
+    padding: 5px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #006;
+}
+
+
+.headTable {
+    background: -webkit-linear-gradient(top, #9A9A9A , white , #9A9A9A);
+    background: -o-linear-gradient(top, #9A9A9A , white , #9A9A9A); 
+    background: -moz-linear-gradient(top, #9A9A9A , white , #9A9A9A); 
+    background: linear-gradient(to top, #9A9A9A , white , #9A9A9A); 
+}
+#settingspanal {
+    height: 0px;
+    position: absolute;
+    width: 250px;
+    top: 85px;
+    right: 1px;
+    overflow: hidden;
+    z-index: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: block;   
+    background-color: white;
+    transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-style: solid;
+    border-color: #0015B0;
+    border-width: 2px;
+    
+    color: #0600A3;
+    font-weight: bold;	
+}
+.settingItem{
+    text-decoration: none;
+}
+.oppanel_Title {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    color: #006;
+    
+}
+.oppanel_Title:hover{
+    background-color: #cccccc;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+.panelItemA{
+    font-size: 16px;
+    text-decoration: none;
+    background-color: rgba(201,202,255,1.00);
+    text-indent: 30px;
+    width: 100%;
+    height: 25px;
+    display: block;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    color: rgba(52,52,87,1.00);
+    padding-top: 10px;
+    padding-bottom: 3px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #9A9A9A;
+    
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+    
+
+}
+.panelItemA:hover{
+    background-color:rgba(255,255,255,1.00);
+}
+.naviItemPane{   
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}

@@ -1,0 +1,126 @@
+#Heading {
+	font-size: 24px;
+	color: #FFF;
+	background-color:rgba(0,21,175,1.00);
+        height: 40px;
+        padding-top: 7px;
+        text-indent: 40px;
+        margin-left: 0;
+        margin-right:0;
+        margin-top: 20px;
+}
+#subheading {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #0015B0;
+}
+.normaltext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000;
+}
+#wline {
+	color: #FFF;
+}
+#redstar {
+	color: #F00;
+}
+#features {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-style: italic;
+	
+	padding: 0px;
+	margin-left: 5px;
+	color: #000;
+        
+        
+}
+.pacMan {
+	height: 0px;
+	position: absolute;
+	width: 600px;
+	top: 69px;
+	left: 521px;
+	border-radius: 0px 0px 15px 15px;
+	overflow: hidden;
+	z-index: 1000;
+	transition: height 0.1s linear 0s;
+	border: 1px solid rgba(255,255,255,1.00);
+	
+}
+
+#loginpanel {
+	overflow: hidden;
+	width: 600px;
+	transition: height 0.2s linear 0s;
+}
+#infopanel {
+	overflow: hidden;
+	transition: height 0.2s linear 0s;
+}
+.OnlyBold {
+	font-weight: bold;
+}
+.view_tbl {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.view_tbl_Field {
+	/* [disabled]background-color: rgba(255,255,255,1.00); */
+	color: rgba(0,6,122,1.00);
+	border-width: 0px;
+}
+.priceTag{
+    font-family:serif;
+    color:#FFF;
+    background-color: #009900;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+/* .roundedOne */
+.roundedOne {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  margin: 20px auto;
+  background: #fcfff4;
+  background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  border-radius: 50px;
+  box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+  label {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    background: linear-gradient(top, #222 0%, #45484d 100%);
+    border-radius: 50px;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
+    &:after {
+      content: '';
+      width: 16px;
+      height: 16px;
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      background: activeColor;
+      background: linear-gradient(top, activeColor 0%, darkenColor 100%);
+      opacity: 0;
+      border-radius: 50px;
+      box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+    }
+    &:hover::after {
+      opacity: 0.3;
+    }
+  }
+  input[type=checkbox] {
+    visibility: hidden;
+    &:checked + label:after {
+      opacity: 1;
+    }
+  }    
+}
+/* end .roundedOne */
+

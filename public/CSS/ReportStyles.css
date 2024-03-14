@@ -1,0 +1,49 @@
+body{
+    background-color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12pt;
+}
+.Rep_labname{
+    font-size: 28px;
+    color: black;
+    margin-left: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+.hedingText{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.hedingTextright{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    line-height: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.reportHeading{
+    font-size: 20px;
+    font-variant: all-small-caps;
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: underline;
+}
+.reportfooter{
+    margin-top: -5px;
+    margin-right: 10px;
+    font-size: 10px;
+    text-align: right;
+    
+}
+.repContent{
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.repSubHeading{
+    font-size: 16px;    
+    text-decoration: underline;
+
+}

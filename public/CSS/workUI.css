@@ -1,0 +1,546 @@
+@charset "utf-8";
+.Normaltext {
+    color: #000066;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.FullPageBlurDiv {
+    z-index:-1;
+    background-color:#ABABAB;
+    -webkit-filter: blur(7px);
+    -moz-filter: blur(7px);
+    -o-filter: blur(7px);
+    -ms-filter: blur(7px);
+    filter: blur(7px);	
+}
+
+.ErrorMessage {
+    color: #FF0000;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.pageheading {
+    color: #000066;
+    font-weight: bold;
+    font-size: 22px;;
+    height: 5px;
+
+}
+.loginBtn {
+    width: 275px;
+    height: 30px;
+}
+.LabselectList {
+    width: 274px;
+}
+.fieldText {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.formButton {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.formAddress {
+    width: 410px;
+}
+.tableHead {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #006;
+    text-decoration: underline;
+    margin: 5px;
+    padding: 0px;
+}
+.formTab {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #006;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    margin: 1px;
+    border-width: 1px;
+    cursor: pointer;
+}
+.textPanal {
+    visibility: hidden;
+}
+.testList {
+    list-style-type: none;
+    list-style-position: inherit;
+}
+.TestListDiv {
+    overflow: scroll;
+    height: 520px;
+}
+.viewTHead {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+    background-color: #8C8CFF;
+    color: #FFF;
+}
+.ageTable {
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-top-color: #8C8CFF;
+    border-right-color: #8C8CFF;
+    border-bottom-color: #8C8CFF;
+    border-left-color: #8C8CFF;
+}
+.tableBody {
+    overflow-y: scroll;
+}
+.OPName {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #006;
+}
+.tableHead2 {
+    text-decoration: underline;
+    color: #006;
+}
+.errorPageHead {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 40px;
+    font-weight: lighter;
+    color: #006;
+}
+.errorPageSubHead {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #006;
+}
+.pHisPanel {
+    margin-top: -30px;
+    margin-left: -10px;
+    position: absolute;
+    overflow: hidden;
+    height: 0px;
+    background-color: #ffffff;
+    -webkit-transition: height 0.07s linear 0s;
+    -moz-transition: height 0.07s linear 0s;
+    -ms-transition: height 0.07s linear 0s;
+    -o-transition: height 0.07s linear 0s;
+    transition: height 0.07s linear 0s;
+    border: 1px solid #003;
+    z-index: 1000;
+    border-radius: 15px;
+}
+.phistr{
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.phistr:hover{
+    background-color: #9999ff;
+}
+.naviPanal {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: #999;
+    height: 35px;
+    margin-top: 2px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+
+.pViewTable {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #006;
+}
+.tDiv {
+    margin-left: 0px;
+    height: 135px;
+    opacity: 0;
+    margin: 5px;
+}
+.tDiv2 {
+    opacity: 1;
+    margin: 5px;
+}
+.pageTableScope {
+    height: 350px;
+    overflow-y: scroll;
+}
+.pageTableScope2 {
+    height: 300px;
+    overflow-y: scroll;
+}
+.pageTableScope3 {
+    height: 450px;
+    overflow: scroll;
+    width: 1005px;
+}
+
+.TableWithBorder {
+    border: 1px solid #006;
+}
+
+.WIOptionTable {
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #006;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #006;
+}
+.WIOptionTmiddle {
+    background-color: #006;
+    height: 100%;
+    width: 2px;
+}
+.finPanalHead {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    background-color: #006;
+    color: #FFF;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 8px;
+    border: 2px solid #FFF;
+}
+.finPanalHead:hover{
+    background-color:#ccc;
+    color:#000;
+}
+
+.finSubPanal {
+    background-color: #006;
+    padding-left: 15px;
+    padding-bottom: 0px;
+    height: 0px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    overflow: hidden;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+.finPanalSubHead {
+    padding: 5px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #FFF;
+    border: 1px solid #006;
+    cursor: pointer;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.finPanalSubHead:hover{
+    background-color:#CCC;
+    color:#000;
+}
+.finDetails {
+    background-color: #FFF;
+    padding: 10px;
+    border: 1px solid #006;
+    height: 400px;
+}
+
+.optionsBar {
+    background-color: #FFF;
+}
+.finDetailHead {
+    font-size: 26px;
+    font-weight: bold;
+    color: #006;
+    text-transform: uppercase;
+}
+.finDetailField {
+    font-size: 20px;
+    padding-left: 10px;
+}
+.finDetailField2 {
+    font-size: 24px;
+    color: #00C;
+    padding-left: 10px;
+}
+.suppliestable {
+    overflow: scroll;
+}
+.CHeadBtn {
+    font-family: Tahoma, Geneva, sans-serif;
+    background: -webkit-linear-gradient(#666, #999,#666);
+    background: -o-linear-gradient(#666,#999,#666);
+    background: -moz-linear-gradient(#666,#999,#666);
+    background: linear-gradient(#666,#999,#666);
+    color: #FFF;
+    width: 150px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 2px;
+}
+.CHeadBtnClicked {
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color: white;
+    color: black;
+    width: 150px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 2px;
+}
+.CHeadBtn:hover{
+    background:#999;
+}
+.COptionBtn {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #FFF;
+    background-color: #09F;
+    text-align: center;
+    width: 140px;
+    padding-top: 1px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    cursor: pointer;
+}
+.COptionBtn:hover{
+    background-color: #999;
+}
+.ccontactsPanel {
+    border: 2px solid #09F;
+    width: 95%;
+    height: 400px;
+    padding-left: 5px;
+    margin-right: 5px;
+}
+.CmsgDash {
+    height: 400px;
+    width: 100%;
+    border: 2px solid #09F;
+    overflow: scroll;
+}
+.contact {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: 1px solid #006;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.contact:hover {
+    background-color:#999;
+    cursor:pointer;
+}
+.msgDash {
+    border: 2px solid #09F;
+    height: 400px;
+    overflow: scroll;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 5px;
+
+}
+.overfScroll {
+    overflow: auto;
+    width:100px;
+}
+.message {
+    width: 100%;
+    overflow: scroll;
+}
+.tbloCell {
+    overflow: scroll;
+    width: 100px;
+}
+.EMPoptions {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #006;
+    font-weight: bold;
+    border: 1px solid #003;
+    width: 400px;
+    margin-top: 15px;
+}
+.forgetPassword {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    color: #006;
+}
+.notifyItem {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #009;
+    background-color: #FFD9DA;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+.notifyItem:hover{
+    background-color: #FFF;
+}
+.NotiSymble {
+    background-color: #F00;
+    border-radius: 50%;
+    color: #FFF;
+    font-weight: bold;
+}
+.naviPanalTD {
+
+}
+.WelcomeDiv {
+    width: 500px;
+    height: 250px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 10;
+    color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    text-align: center;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px 2px #000000;
+    box-shadow: 0px 0px 5px 2px #000000;
+    text-shadow: 2px 2px 2px #000000;
+    top: 20%;
+    left: 25%;
+    display:none;
+}
+.desTitlePanel {
+    width: 500px;
+    height: 250px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 11;
+    color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    text-align: center;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px 2px #000000;
+    box-shadow: 0px 0px 5px 2px #000000;
+    text-shadow: 2px 2px 2px #000000;
+    top: 20%;
+    left: 25%;
+    display: none;
+}
+.titlePanel {
+    position: absolute;
+    z-index: 12;
+    display: none;
+    background: -webkit-linear-gradient(top, #9A9A9A , white , #9A9A9A);
+    background: -o-linear-gradient(top, #9A9A9A , white , #9A9A9A); 
+    background: -moz-linear-gradient(top, #9A9A9A , white , #9A9A9A); 
+    background: linear-gradient(to top, #9A9A9A , white , #9A9A9A); 
+    border: 2px solid #FF0004;
+}
+.desnvpanel {
+    width: 500px;
+    height: 250px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 11;
+    color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    text-align: center;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px 2px #000000;
+    box-shadow: 0px 0px 5px 2px #000000;
+    text-shadow: 2px 2px 2px #000000;
+    top: 20%;
+    left: 25%;
+    display: none;
+}
+.nvpanal {
+    position: absolute;
+    z-index: 12;
+    display:none;
+    top: 12%;
+    left: 80%;
+    border: 2px solid #FF0004;
+    background-color:#ECECEC;
+}
+.desnotpanel {
+    width: 500px;
+    height: 250px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 11;
+    color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    text-align: center;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px 2px #000000;
+    box-shadow: 0px 0px 5px 2px #000000;
+    text-shadow: 2px 2px 2px #000000;
+    top: 20%;
+    left: 15%;
+    display: none;
+}
+.notPanel {
+    position: absolute;
+    z-index: 12;
+    display:none;
+    top: 13%;
+    left: 62%;
+    border: 2px solid #FF0004;
+    background-color:#ECECEC;
+}
+.normalTable{
+    border: 1px solid #000000;
+}
+.configbtns{
+    display: block;
+    padding: 10px;
+    background-color: #003399;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    width: 250px;
+    border-radius: 15px;
+    
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+.configbtns:hover{
+    background-color: #666;
+}
